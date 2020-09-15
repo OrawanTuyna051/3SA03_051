@@ -28,6 +28,13 @@
   color: #61dafb;
 }
 
+body{
+  background-image: url(BG.png);
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
 .card {
   display: inline-block;
   text-align: center;
@@ -38,8 +45,8 @@
   user-select: none;
  }
  .activeCard {
-  color: red;
-  background: pink;
+  color: rgb(6, 249, 6);
+  background: white;
  }
  
 
@@ -51,3 +58,4 @@
     transform: rotate(360deg);
   }
 }
+
